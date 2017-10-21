@@ -1,4 +1,4 @@
-export const isJSON = (value) => {
+export default (value) => {
     try {
         JSON.parse(value);
     } catch(e) {

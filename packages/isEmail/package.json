@@ -1,10 +1,10 @@
 {
-  "name": "@quillio/validators",
+  "name": "@quillio/isEmail",
   "version": "0.0.1",
   "description": "Collection of common string validators",
   "main": "dist/index.js",
   "scripts": {
-    "build": "cd ./../../ && source build.sh && build validators"
+    "build": "cd ./../../ && source build.sh && build isEmail"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,6 @@
   },
   "homepage": "https://github.com/quillio/validators#readme",
   "dependencies": {
-    "@quillio/isEmail": "0.0.1",
-    "@quillio/isJSON": "0.0.1",
-    "@quillio/isPhoneNumber": "0.0.1"
+
   }
 }

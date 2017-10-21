@@ -4,6 +4,7 @@
 // import isBlank from '@quillio/isBlank';
 // import isEmpty from '@quillio/isEmpty';
 // import isInteger from '@quillio/isInteger';
+import isEmail from '@quillio/isEmail';
 import isJSON from '@quillio/isJSON';
 import isPhoneNumber from '@quillio/isPhoneNumber';
 // import isNaturalNumber from '@quillio/isNaturalNumber';
@@ -15,6 +16,7 @@ export default {
     // isAlphaNumeric,
     // isBetween,
     // isBlank,
+    isEmail,
     // isEmpty,
     // isInteger,
     isJSON,

@@ -1,0 +1,38 @@
+{
+  "name": "@quillio/validators",
+  "version": "0.0.1",
+  "description": "Collection of common string validators",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "cd ./../../ && source build.sh && build validators"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quillio/validators.git"
+  },
+  "keywords": [
+    "javascript",
+    "validators-functions"
+  ],
+  "author": "admin@quillio.io",
+  "contributors": [
+    "walkerrandolphsmith@gmail.com"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quillio/validators/issues"
+  },
+  "homepage": "https://github.com/quillio/validators#readme",
+  "dependencies": {
+    "@quillio/isAlpha": "0.0.1",
+    "@quillio/isAlphaNumeric": "0.0.1",
+    "@quillio/isBetween": "0.0.1",
+    "@quillio/isBlank": "0.0.1",
+    "@quillio/isEmpty": "0.0.1",
+    "@quillio/isInteger": "0.0.1",
+    "@quillio/isJSON": "0.0.1",
+    "@quillio/isNaturalNumber": "0.0.1",
+    "@quillio/isNumeric": "0.0.1",
+    "@quillio/isReal": "0.0.1"
+  }
+}

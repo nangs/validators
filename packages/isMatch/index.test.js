@@ -22,5 +22,5 @@ const averageEvalTime = (x, y) => {
 test('constant time equality', t => {
     const matchTime = averageEvalTime('AAAAAA', 'AAAAAA');
     const misMatchTime = averageEvalTime('AAAAAA', 'BB');
-    t.true(Math.abs(matchTime - misMatchTime) < 1000)
+    t.true(Math.abs(matchTime - misMatchTime) < 2500)
 });

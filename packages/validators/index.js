@@ -7,6 +7,7 @@
 import isEmail from '@quillio/isEmail';
 import isJSON from '@quillio/isJSON';
 import isPhoneNumber from '@quillio/isPhoneNumber';
+import isUrl from '@quillio/isUrl';
 // import isNaturalNumber from '@quillio/isNaturalNumber';
 // import isNumeric from '@quillio/isNumeric';
 // import isReal from '@quillio/isReal';
@@ -20,8 +21,9 @@ export default {
     // isEmpty,
     // isInteger,
     isJSON,
-    isPhoneNumber
+    isPhoneNumber,
     // isNaturalNumber,
     // isNumeric,
-    // isReal
+    // isReal,
+    isUrl
 };

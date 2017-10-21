@@ -26,6 +26,7 @@
   "dependencies": {
     "@quillio/isEmail": "0.0.1",
     "@quillio/isJSON": "0.0.1",
-    "@quillio/isPhoneNumber": "0.0.1"
+    "@quillio/isPhoneNumber": "0.0.1",
+    "@quillio/isUrl": "0.0.1"
   }
 }
